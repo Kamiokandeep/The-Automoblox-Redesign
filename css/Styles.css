@@ -1,0 +1,74 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0; 
+    height: 100vh;
+}
+
+h1, h2, a {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Custom - Header */
+.custom-header {
+    background-color: rgba(103, 140, 58, 0);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    font-size: 1.2rem;
+}
+
+/* Custom - Hero */
+.hero {
+    position: relative;
+    background: url('../img/Hero.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 10vw;
+}
+
+/* Custom - Pading */
+.custom-pading {
+    padding-top: 150px;
+}
+
+/* Custom - Card */
+.card {
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    transform: translateY(10px);
+}
+
+.card:hover {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.justified-text {
+    text-align: justify;
+}
+
+.card-img-overlay h1 {
+    font-size: 10vw;
+    margin-top: -20px;
+}
+
+/* Custom - Footer */
+.custom-footer {
+    background-color: #e02827;
+}

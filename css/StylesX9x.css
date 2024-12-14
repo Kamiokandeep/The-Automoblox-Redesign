@@ -1,0 +1,20 @@
+body {
+    background-image: url('../img/Background-green.jpg');
+}
+.custom-footer {
+    background-color: #b0bc31;
+}
+.card-img-overlay h1 {
+    color: #b0bc31;
+}
+.card {
+    border: 2px solid #b0bc31;
+}
+.btn-primary {
+    background-color: #b0bc31;
+    border-color: #b0bc31;
+}
+.btn-primary:hover {
+    background-color: #027531; 
+    border-color: #027531; 
+}

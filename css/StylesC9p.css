@@ -1,0 +1,20 @@
+body {
+    background-image: url('../img/Background-pink.jpg');
+}
+.custom-footer {
+    background-color: #e66fd2;
+}
+.card-img-overlay h1 {
+    color: #e66fd2;
+}
+.card {
+    border: 2px solid #e66fd2;
+}
+.btn-primary {
+    background-color: #e66fd2;
+    border-color: #e66fd2;
+}
+.btn-primary:hover {
+    background-color: #cd63bb; 
+    border-color: #cd63bb; 
+}

@@ -1,0 +1,20 @@
+body {
+    background-image: url('../img/Background-orange.jpg');
+}
+.custom-footer {
+    background-color: #d26b04;
+}
+.card-img-overlay h1 {
+    color: #d26b04;
+}
+.card {
+    border: 2px solid #d26b04;
+}
+.btn-primary {
+    background-color: #d26b04;
+    border-color: #d26b04;
+}
+.btn-primary:hover {
+    background-color: #c46505; 
+    border-color: #c46505; 
+}
